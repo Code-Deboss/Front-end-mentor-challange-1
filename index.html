@@ -43,15 +43,53 @@
     .child div{
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       flex-direction: column;
+      height: 8rem;
+      margin-bottom: 30px;
+      /* background-color: aquamarine; */
     }
     div h1{
       text-align: center;
-      width: 80%;
+      width: 90%;
       font-size: 22px;
-    }
     
+    }
+    div p{
+      text-align: center;
+      width: 80%;
+     color: #acacac;
+    }
+    @media (max-width: 1621px) {
+      .child{
+        width: 30%;
+        height: 40rem;
+      }
+    }
+    @media (max-width: 1070px) {
+      .child{
+        width: 40%;
+        height: 40rem;
+      }
+    }
+     @media (max-width: 757px) {
+      .child{
+        width: 60%;
+        height: 40rem;
+      }
+    }
+    @media (max-width: 540px) {
+      .child{
+        width: 70%;
+        height: 35rem;
+      }
+    }
+    @media (max-width: 393px) {
+      .child{
+        width: 100%;
+        height: 37rem;
+      }
+    }
   </style>
 </head>
 <body>
